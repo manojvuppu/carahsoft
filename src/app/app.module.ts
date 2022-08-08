@@ -4,7 +4,6 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
-import { MpServiceService } from './mp-service.service';
 import { MatCardModule } from '@angular/material/card';
 
 @NgModule({
@@ -15,6 +14,6 @@ import { MatCardModule } from '@angular/material/card';
     
   ],
   bootstrap: [AppComponent],
-  providers: [MpServiceService],
+  providers: [],
 })
 export class AppModule {}
