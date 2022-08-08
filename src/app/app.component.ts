@@ -1,6 +1,4 @@
 import { Component } from '@angular/core';
-import { Subscription } from 'rxjs';
-import { MpServiceService } from './mp-service.service';
 
 @Component({
   selector: 'my-app',
@@ -8,12 +6,7 @@ import { MpServiceService } from './mp-service.service';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  
-
   constructor() {}
 
-  ngOnInit() {
-   
-  }
-
+  ngOnInit() {}
 }
