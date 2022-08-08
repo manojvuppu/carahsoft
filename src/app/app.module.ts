@@ -6,10 +6,11 @@ import { AppComponent } from './app.component';
 import { MatCardModule } from '@angular/material/card';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { LandingComponent } from './landing/landing.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule, MatCardModule],
-  declarations: [AppComponent, HeaderComponent, FooterComponent],
+  declarations: [AppComponent, HeaderComponent, FooterComponent,LandingComponent],
   bootstrap: [AppComponent],
   providers: [],
 })
